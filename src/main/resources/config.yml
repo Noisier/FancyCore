@@ -1,0 +1,16 @@
+database:
+  # Tipos de bancos de dados disponíveis atualmente: Hikari, MySQL
+  type: 'MySQL'
+  mysql:
+    # Utilizar driver da MariaDB
+    mariadb: false
+    # Host para acessar o MySQL
+    host: 'localhost'
+    # Porta para acessar o MySQL
+    port: '3306'
+    # Nome do banco de dados no MySQL
+    name: 'test'
+    # Usuário de acesso ao MySQL
+    user: 'root'
+    # Senha de acesso ao MySQL
+    password: ''

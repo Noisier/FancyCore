@@ -1,0 +1,5 @@
+author: Noisier
+name: FancyCore
+version: 1.0
+
+main: tk.fancystore.noisier.bungee.Main

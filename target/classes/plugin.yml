@@ -1,0 +1,6 @@
+author: Noisier
+name: FancyCore
+version: 1.0
+depend: [ProtocolLib, PlaceholderAPI]
+
+main: tk.fancystore.noisier.bukkit.Core

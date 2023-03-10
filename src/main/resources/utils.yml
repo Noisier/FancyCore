@@ -1,0 +1,34 @@
+# Ative isso caso esteja utilizando o FancyCore no Bungee para os comandos: party, fake e cash
+bungeecord: false
+# Ative isso caso deseja utilizar a Fila
+queue: true
+# /fake do FancyCore
+fake:
+  # Roles que podem ser utilizadas com o /fake
+  # As role vão conforme as do servidor spigot em que o jogador está conectado.
+  # No bungeecord só é utilizado para restringir os cargos que podem ser utilizado pelo comando direto.
+  role:
+    - 'Membro'
+    - 'VIP'
+    - 'MVP'
+    - 'MVP+'
+  # Nomes aleatórios do /fake
+  randoms:
+    - 'F_rederico'
+    - 'A_ndersson'
+    - 'C_harles'
+    - 'Y_asmin'
+  # Mensagem de kick ao utilizar o /fake
+  kick-apply: '&c&lREDE FANCY\n \n&aSeu nick foi modificado\n&aEntre novamente no servidor para que faça efeito.'
+  # Mensagem de kick ao utilizar o /faker
+  kick-remove: '&c&lREDE FANCY\n \n&aSeu nick foi resetado\n&aEntre novamente no servidor para que faça efeito.'
+# /party do mCore
+party:
+  # Tamanho da party por permissão
+  # (_) é igual a (.)
+  # Tamanho padrão: 3
+  size:
+    role_master: 20
+    role_youtuber: 15
+    role_mvpplus: 10
+    role_mvp: 5
